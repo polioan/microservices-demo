@@ -1,0 +1,22 @@
+{
+  "name": "@microservices-demo/config",
+  "version": "0.0.1",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=20.12.2"
+  },
+  "engineStrict": true,
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "dotenv-safe": "^9.1.0"
+  },
+  "devDependencies": {
+    "@types/dotenv-safe": "^8.1.6"
+  }
+}
